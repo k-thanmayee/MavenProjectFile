@@ -12,6 +12,7 @@ public void assert1() {
 	SoftAssert as=new SoftAssert();
 	as.assertEquals(a,b);
 	System.out.println(a+b);
+	System.out.println(a);
 	Assert.assertEquals(a,b);
 }
 }
